@@ -1,0 +1,198 @@
+body {
+    min-height: 100vh;
+    margin: 0.5rem;
+    /* background-image: radial-gradient(yellow, lime, green); */
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-size: contain;
+}
+
+/* Navbar styling */
+.navbar {
+    height:3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    color: antiquewhite;
+    text-shadow: 5px 5px 8px black;
+    box-shadow: 5px 5px 8px black;
+    background-image: linear-gradient(to right, green, lime, yellow);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.n-left {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.n-name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.n-right,
+li {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.n-list>ul>li:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+h1 {
+    color: antiquewhite;
+    padding: 1rem;
+    text-shadow: 5px 5px 8px black;
+    font-family: cursive;
+}
+
+h3,
+h2 {
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 5px 5px 8px black;
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+    color: black;
+    font-size: 20px;
+}
+
+label {
+    text-shadow: 5px 5px 8px black;
+    font-family: cursive;
+    font-weight: bold;
+    color: antiquewhite;
+    padding: 1rem;
+}
+
+input,
+select {
+    padding: 0.2rem;
+    border-radius: 20px;
+    margin: 0.5rem;
+}
+
+button {
+    font-family: cursive;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: crimson;
+}
+button:hover{
+    background-color: forestgreen;
+}
+
+.images {
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 35rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, lime 0%, yellow 100%);
+}
+
+#ufo {
+    position: relative;
+    top: -775rem;
+    left: 25rem;
+}
+
+#rick {
+    position: relative;
+    top: -720rem;
+    left: 8rem;
+}
+
+#morty {
+    position: relative;
+    top: -650rem;
+    left: 40rem;
+}
+
+#a1 {
+    position: relative;
+    top: -610rem;
+    right: 35rem;
+}
+
+#a2 {
+    position: relative;
+    top: -610rem;
+    left: 15rem;
+}
+
+#a3 {
+    position: relative;
+    top: -510rem;
+    right: 53rem;
+}
+
+#beth {
+    position: relative;
+    top: -430rem;
+    left: 60rem;
+}
+
+#summer {
+    position: relative;
+    top: -310rem;
+    right: 16rem;
+}
+
+#a4 {
+    position: relative;
+    top: -210rem;
+    left: 20rem;
+}
+
+#jerry {
+    position: relative;
+    top: -90rem;
+    right: 50rem;
+}
+
+.side-images>* {
+    transform: scale(1);
+}
+
+.side-images>*:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
